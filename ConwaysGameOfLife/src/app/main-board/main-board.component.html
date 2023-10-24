@@ -1,0 +1,10 @@
+<h2>Conway's Game Of Life</h2>
+
+<div>
+<button type="button" id="buttonStart" name="buttonStart" (click)="start()">Start</button>
+<button type="button" id="buttonStop" name="buttonStop" (click)="stop()">Stop</button>
+<button type="button" id="buttonReset" name="buttonReset" (click)="reset()">Reset</button>
+</div>
+
+<div [innerHTML]="cellsContent" class="board"></div>
+
